@@ -1,6 +1,6 @@
 # ESM-2 蛋白语言模型：药物靶点表征与相似性分析
 
-计算生物学与人工智能药学作业。本项目用 Meta 的 **ESM-2 蛋白语言模型**（Protein
+本项目用 Meta 的 **ESM-2 蛋白语言模型**（Protein
 Language Model, pLM）对 16 个知名药物靶点蛋白生成嵌入向量，并做**相似性分析、
 层次聚类、降维可视化**，从「蛋白序列相似 → 潜在功能/药物敏感性相似」的角度展示
 AI 在药物研发中的一种典型应用。
@@ -85,7 +85,7 @@ jupyter notebook analysis.ipynb
 
 ## 复现步骤
 
-**方式一（推荐）：直接运行 Jupyter notebook**
+**方式一：直接运行 Jupyter notebook**
 
 ```bash
 jupyter notebook analysis.ipynb
@@ -124,4 +124,3 @@ python src/embed_targets.py --fasta data/drug_targets.fasta \
 - 激酶类靶点（受体/非受体酪氨酸激酶、丝苏氨酸激酶）在嵌入空间中明显聚在一起；
 - 非激酶靶点（ACE2、PARP1、KRAS）与激酶显著分开；
 - 说明 ESM-2 在**无监督**（没给任何标签）情况下，仅靠蛋白序列就学到了"蛋白家族"
-  这一生物学结构，可作为药物靶点发现、脱靶风险分析的基础。
