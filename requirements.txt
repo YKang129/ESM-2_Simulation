@@ -1,0 +1,12 @@
+# 依赖清单（在 Python 3.14 + Windows 下验证通过）
+# 安装：pip install -r requirements.txt
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.13
+scikit-learn>=1.3
+torch>=2.1
+transformers>=4.40
+huggingface_hub>=0.23
+ipykernel>=6.0
+jupyter>=1.0

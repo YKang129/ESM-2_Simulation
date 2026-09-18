@@ -1,0 +1,17 @@
+gene,uniprot,protein_name,family,example_drug,length
+EGFR,P00533,Epidermal growth factor receptor,Tyrosine kinase (RTK),gefitinib,1210
+ERBB2,P04626,Receptor tyrosine-protein kinase erbB-2 (HER2),Tyrosine kinase (RTK),trastuzumab,1255
+KDR,P35968,Vascular endothelial growth factor receptor 2,Tyrosine kinase (RTK),sunitinib,1356
+ALK,Q9UM73,ALK tyrosine kinase receptor,Tyrosine kinase (RTK),crizotinib,1620
+FLT3,P36888,Receptor-type tyrosine-protein kinase FLT3,Tyrosine kinase (RTK),gilteritinib,993
+ABL1,P00519,Tyrosine-protein kinase ABL1,Tyrosine kinase (non-RTK),imatinib,1130
+SRC,P12931,Proto-oncogene tyrosine-protein kinase Src,Tyrosine kinase (non-RTK),dasatinib,536
+BTK,Q06187,Tyrosine-protein kinase BTK,Tyrosine kinase (non-RTK),ibrutinib,659
+JAK2,O60674,Tyrosine-protein kinase JAK2,Tyrosine kinase (non-RTK),ruxolitinib,1132
+BRAF,P15056,Serine/threonine-protein kinase B-raf,Ser/Thr kinase,vemurafenib,766
+MAPK1,P28482,Mitogen-activated protein kinase 1 (ERK2),Ser/Thr kinase,ulixertinib,360
+CDK4,P11802,Cyclin-dependent kinase 4,Ser/Thr kinase,palbociclib,303
+CDK6,Q00534,Cyclin-dependent kinase 6,Ser/Thr kinase,abemaciclib,326
+KRAS,P01116,GTPase KRas,Small GTPase,sotorasib,189
+ACE2,Q9BYF1,Angiotensin-converting enzyme 2,Other enzyme,SARS-CoV-2 entry,805
+PARP1,P09874,Poly [ADP-ribose] polymerase 1,Other enzyme,olaparib,1014
